@@ -3,21 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=IBM Plex Serif' rel='stylesheet'>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/">
-    <link rel="stylesheet" type="text/css" href="/assets/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    
     <meta name="author" content="Andy Edstrom">
     <title>Edstrom Prototype</title>
 </head>
 
 <body>
-<!-- Navbar -->
+
+
+<container>
+    <!-- Navbar -->
     <container id="navbar">
         <div id="logo-container">
-            <img id="logo" src="/assets/images/e-prototype-logo-e.png" alt="logo">
+            <img id="logo" src="./assets/images/e-prototype-logo-e.png" alt="logo">
         </div>
         <container id="nav-right">
             <a class="links" href="#about">About</a>
@@ -30,19 +35,22 @@
 <!-- Description -->
     <container id="sub-nav">
         <h5 class="h5">CNC MACHINING</h5>
-        <h5> - </h5>
+        <h5></h5>
         <h5 class="h5">VISUAL MODELS</h5>
-        <h5> - </h5>
-        <h5 class="h5">ENGINEERING PROTOTYPES</h5>
+        <h5></h5>
+        <h5 class="h5">PROTOTYPES</h5>
     </container>
+    <hr class="break">
 <!-- Description -->
+</container>
 
-<img src="/assets/images/e-prototype-logo.png" alt="">
-
+<div id="full-logo-div">
+<img id="full-logo" src="./assets/images/e-prototype-logo.png" alt="">
+</div>
 
     <!-- Welcome Text -->
     <container id="home-section">
-        <p id="home-text"><h1 id="thank-you">Thank you</h1>for visiting e-prototype.com, the cyber-home of Edstrom Prototype, LLC! We exist
+        <p id="text">Thank you for visiting e-prototype.com, the cyber-home of Edstrom Prototype, LLC! We exist
             to provide
             cutting edge prototype CNC machining services to companies and individuals looking for a competitive edge to
             bring their new product designs to life. Our goal is to surpass your expectations in cost, delivery time and
@@ -58,7 +66,7 @@
     <!-- About section -->
     <container id="about-section">
         <h1 id="about">About</h1>
-        <p id="about-text">Edstrom Prototype, LLC is located in Holland, MI and was founded in 2003. With previous
+        <p id="text">Edstrom Prototype, LLC is located in Holland, MI and was founded in 2003. With previous
             experience in automotive product development, the owner saw the value of a critical step sometimes missed in
             the product development process- a good prototype! Good designers, engineers and managers will tell you that
             a prototype is the best way to evaluate the design of a new product and its related parts. Attributes such
@@ -77,21 +85,23 @@
     <!-- About section -->
 
     <!-- Sample Parts -->
-    <h1 id="work">Work</h1>
-    <container id="work-pictures">
-        <img id="work-pictures" src="/assets/images/Inspection covers front - original.jpg" alt="">
-        <img id="work-pictures" src="/assets/images/inst bracket.jpg" alt="">
-        <img id="work-pictures" src="/assets/images/rainbird display.jpg" alt="">
+    <container id="work">
+    <h1>Work</h1>
+    <container id="work-container">
+        <img id="work-pictures" src="/assets/images/Inspectioncovers-front-original.jpg" alt="">
+        <img id="work-pictures" src="/assets/images/instbracket.jpg" alt="">  
         <img id="work-pictures" src="/assets/images/slider3.jpg" alt="">
-        <img id="work-pictures" src="/assets/images/Steel gear.jpg" alt="">
-        <img id="work-pictures" src="/assets/images/steel prototype 1.jpg" alt="">
-        <img id="work-pictures" src="/assets/images/steel prototype 2.jpg" alt="">
-        <img id="work-pictures" src="/assets/images/T alum 2.jpg" alt="">
-        <img id="work-pictures" src="/assets/images/T alum.jpg" alt="">
+        <img id="work-pictures" src="/assets/images/Steelgear.jpg" alt="">
+        <img id="work-pictures" src="/assets/images/steelprototype1.jpg" alt="">
+        <img id="work-pictures" src="/assets/images/steelprototype2.jpg" alt="">
+        <img id="work-pictures" src="/assets/images/Talum2.jpg" alt="">
+        <img id="work-pictures" src="/assets/images/Talum.jpg" alt="">
         <img id="work-pictures" src="/assets/images/ty-it.jpg" alt="">
-        <img id="work-pictures" src="/assets/images/8 brackets.jpg" alt="">
-        <img id="work-pictures" src="/assets/images/4 brackets.jpg" alt="">
+        <img id="work-pictures" src="/assets/images/8brackets.jpg" alt="">
+        <img id="work-pictures" src="/assets/images/4brackets.jpg" alt="">
+        <img id="work-pictures" src="/assets/images/rainbirddisplay.jpg" alt="">
     </container>
+</container>
     <!-- Sample Parts -->
 
     <!-- Contact Section -->
@@ -100,13 +110,27 @@
 
             <div id="contact-info">
                 <div>
-                    <h4>Phone</h4>
+                    <h4 class="sub-header">Phone</h4>
+                    <hr class="break">
                     <a href="tel:5664361">Call (616) 566-4361</a>
                 </div>
 
                 <div>
-                    <h4>Email</h4>
-                    <a href="mailto:andyedstrom@gmail.com">andyedstrom115@gmail.com</a>
+                    <h4 class="sub-header">Email</h4>
+                    <hr class="break">
+                    <a href="mailto:dave@e-prototype.com">dave@e-prototype.com</a>
+                </div>
+
+                <div>
+                    <h4 class="sub-header">Social</h4>
+                    <hr class="break">
+                    <a target="" href="https://www.linkedin.com/in/dave-edstrom-98565370/">LinkedIn</a>
+                </div>
+                <div>
+                    <h4 class="sub-header">Mailing Address</h4>
+                    <hr class="break">
+                    <a target="blank" href="https://www.google.com/maps/place/117+Fifth+Ave+%234,+Holland,+MI+49424/@42.8010382,-86.0936513,17z/data=!3m1!4b1!4m5!3m4!1s0x881992aa35d36545:0x28ca7c657cb02ccf!8m2!3d42.8010382!4d-86.0914626">
+                        117 Fifth Ave #4,<br><br>Holland, MI 49424</a>
                 </div>
             </div>
 

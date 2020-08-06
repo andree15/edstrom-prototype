@@ -14,6 +14,10 @@ h1{
     color: #0f4c75; 
     letter-spacing: 3px;
     margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #header{
@@ -38,13 +42,19 @@ h1{
 }
 
 #logo{
-    
     margin-left: 100px;
     max-width: 25px;
     float: left;
 }
 
+#full-logo-div{
+    text-align: center;
+}
 
+#full-logo{
+    max-width: 400px;
+    margin: 50px;
+}
 
 .links{
     text-decoration: none;
@@ -53,23 +63,52 @@ h1{
     margin-left: 25px;
     text-decoration: none;
     letter-spacing: 3px;
+    
 }
 
 #sub-nav{
-    margin-top: 15px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 30px;
     letter-spacing: 8px;
+    text-align: center;
+}
+
+.h5{
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1;
+    font-size: 20px;
 }
 
 #thank-you{
-    margin:0;
+    margin:10px;
+    margin-left: 0px;
+    letter-spacing: normal;
+}
+
+#text{
+    line-height: 2;
+}
+
+#work-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #work-pictures{
     max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform .2s
+}
+
+#work-pictures:hover{
+    transform: scale(1.5);
 }
 
 #contact-info{
@@ -78,18 +117,28 @@ h1{
     justify-content: space-evenly;
 }
 
+.sub-header{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
 .footer {
     flex-shrink: 0;
     color: white;
     text-align: center;
     background-color: #1c2938;
-    margin: 0px -8px 0px -8px;
-    border-bottom: 8px solid #3282b8;
+    margin: 50px -8px 0px -8px;
+    border-bottom: 8px solid #3282b8    ;
     padding: 5px;
     width: 100%;
     letter-spacing: 3px;
   }
 
+.break{
+    border: dashed 1px #0f4c75;
+}
+
 a{
     text-decoration: none;
+    color: #0f4c75;
 }
