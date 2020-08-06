@@ -3,6 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=IBM Plex Serif' rel='stylesheet'>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/">
     <link rel="stylesheet" type="text/css" href="/assets/style.css">
@@ -11,24 +14,28 @@
 </head>
 
 <body>
-    <container id="navbox">
-        <div class="nav-left">
-            <img class="links" id="logo" src="/assets/images/e-prototype-logo-e.png" alt="logo">
+
+    <container id="navbar">
+        <div id="logo-container">
+            <img id="logo" src="/assets/images/e-prototype-logo-e.png" alt="logo">
         </div>
         <container id="nav-right">
             <a class="links" href="#about">About</a>
-            <a class="links" href="#portfolio">Sample Parts</a>
+            <a class="links" href="#work">Work</a>
             <a class="links" href="#contact">Contact</a>
-            <a class="links" href="#social">Links</a>
         </container>
-        <div>CNC MACHINING</div>
-        <div>VISUAL MODELS</div>
-        <div>ENGINEERING PROTOTYPES</div>
+    </container>
+    <container id="sub-nav">
+        <h5 class="h5">CNC MACHINING</h5>
+        <h5> - </h5>
+        <h5 class="h5">VISUAL MODELS</h5>
+        <h5> - </h5>
+        <h5 class="h5">ENGINEERING PROTOTYPES</h5>
     </container>
 
     <!-- Home page -->
     <container id="home-section">
-        <div id="home-text">Thank you for visiting e-prototype.com, the cyber-home of Edstrom Prototype, LLC! We exist
+        <p id="home-text"><h1 id="thank-you">Thank you</h1>for visiting e-prototype.com, the cyber-home of Edstrom Prototype, LLC! We exist
             to provide
             cutting edge prototype CNC machining services to companies and individuals looking for a competitive edge to
             bring their new product designs to life. Our goal is to surpass your expectations in cost, delivery time and
@@ -37,7 +44,7 @@
             a thousand pictures”. Our prototype CNC machining services are currently being used by private individuals
             as well as product development firms and original equipment manufacturers in the medical, dental,
             automotive, marine, consumer electronics, and furniture industries. Please go to the sample parts page to
-            see some of our work.</div>
+            see some of our work.</p>
     </container>
 
     <!-- Home page -->
@@ -45,8 +52,8 @@
 
     <!-- About section -->
     <container id="about-section">
-        <h1>About</h1>
-        <div id="about-text">Edstrom Prototype, LLC is located in Holland, MI and was founded in 2003. With previous
+        <h1 id="about">About</h1>
+        <p id="about-text">Edstrom Prototype, LLC is located in Holland, MI and was founded in 2003. With previous
             experience in automotive product development, the owner saw the value of a critical step sometimes missed in
             the product development process- a good prototype! Good designers, engineers and managers will tell you that
             a prototype is the best way to evaluate the design of a new product and its related parts. Attributes such
@@ -60,12 +67,13 @@
             need head-on. We specialize in prototype CNC machining. Much research was done to select cutting edge
             software and machinery adaptable to the fast-paced world of prototyping. Values such as fair pricing,
             outstanding customer service, and a commitment to follow through on what we promised are the guiding
-            principals of the company.</div>
+            principals of the company.</p>
     </container>
     <!-- About section -->
 
     <!-- Sample Parts -->
-    <contaianer id="sample-section">
+    <h1 id="work">Work</h1>
+    <container id="work-pictures">
         <img id="work-pictures" src="/assets/images/Inspection covers front - original.jpg" alt="">
         <img id="work-pictures" src="/assets/images/inst bracket.jpg" alt="">
         <img id="work-pictures" src="/assets/images/rainbird display.jpg" alt="">
@@ -78,30 +86,32 @@
         <img id="work-pictures" src="/assets/images/ty-it.jpg" alt="">
         <img id="work-pictures" src="/assets/images/8 brackets.jpg" alt="">
         <img id="work-pictures" src="/assets/images/4 brackets.jpg" alt="">
-    </contaianer>
+    </container>
     <!-- Sample Parts -->
 
     <!-- Contact Section -->
-    <container>
-        <h1>Contact</h1>
-        <h4>Phone</h4>
-        <div>
-            (616) 566-4361
-        </div>
-        <h4>Email</h4>
-        <div>
-            dave@e-prototype.com
-        </div>
-        <h4>Mailing Address</h4>
-        <div>
-            Edstrom Prototype, LLC
-            <br>243 129th Ave.
-            <br>Holland, MI 49424
-        </div>
-    </container>
 
+    <container id="contact">
+
+
+      
+            <h1>Contact</h1>
+
+            <div id="contact-info">
+                <div>
+                    <h4>Phone</h4>
+                    <a href="tel:5664361">Call (616) 566-4361</a>
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <a href="mailto:andyedstrom@gmail.com">andyedstrom115@gmail.com</a>
+                </div>
+            </div>
+
+    </container>
     <!-- Contact Section -->
 
+    <footer class="footer">Dave Edstrom</footer>
 </body>
 
 </html>

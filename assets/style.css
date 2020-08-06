@@ -1,7 +1,95 @@
+body{
+    background-image: url(/assets/backgrounds/hypnotize.png) ;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'IBM Plex Serif';
+}
+
+
+h2,h3,h4,h5,h6{
+    color: #0f4c75;
+}
+
+h1{
+    color: #0f4c75; 
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1b262c;
+    z-index: 1;
+    margin: 0;
+    padding: 8px;
+}
+
+#nav-right{
+    float: right ;
+    margin-right: 100px;
+}
+
 #logo{
-    max-width: 75px;
+    
+    margin-left: 100px;
+    max-width: 25px;
+    float: left;
+}
+
+
+
+.links{
+    text-decoration: none;
+    color: #3282b8;
+    font-size: 25px;
+    margin-left: 25px;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+#sub-nav{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+#thank-you{
+    margin:0;
 }
 
 #work-pictures{
     max-width: 300px;
+}
+
+#contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer {
+    flex-shrink: 0;
+    color: white;
+    text-align: center;
+    background-color: #1c2938;
+    margin: 0px -8px 0px -8px;
+    border-bottom: 8px solid #3282b8;
+    padding: 5px;
+    width: 100%;
+    letter-spacing: 3px;
+  }
+
+a{
+    text-decoration: none;
 }
