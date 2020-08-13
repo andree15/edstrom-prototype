@@ -129,7 +129,7 @@ h1{
     color: white;
     text-align: center;
     background-color: #1c2938;
-    margin: 50px -8px 0px -8px;
+    margin: 0px -8px 0px -8px;
     border-bottom: 8px solid #3282b8    ;
     padding: 5px;
     width: 100%;
@@ -143,4 +143,12 @@ h1{
 a{
     text-decoration: none;
     color: #0f4c75;
+}
+
+.credit{
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    transition: 0ms;
+    margin-top: 50px;
 }
