@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/hypnotize.png) ;
+    background-color: rgb(214, 210, 210) ;
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'IBM Plex Serif';
@@ -36,8 +36,16 @@ h1{
     margin-right: 100px;
 }
 
+#flag{
+    margin-top: 4px;
+    margin-left: 30px ;
+    margin-right: 30px;
+    max-width: 35px;
+    float: left;
+}
+
 #logo{
-    margin-left: 100px;
+    /* margin-left: 100px; */
     max-width: 25px;
     float: left;
 }
