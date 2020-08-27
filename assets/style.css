@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(214, 210, 210) ;
+    background-color: rgb(230, 224, 224) ;
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'IBM Plex Serif';
@@ -36,8 +36,6 @@ h1{
     margin-right: 100px;
 }
 
-
-
 #logo{
     margin-left: 100px;
     max-width: 25px;
@@ -48,21 +46,25 @@ h1{
     text-align: center;
     display: flex;
     justify-content: space-between;
-    margin: 75px 30px 100px 30px;
+    margin: 20px 30px 25px 30px;
 }
 
 #full-logo{
-    max-width: 400px;
-    padding-top: 30px;
+    max-width: 500px;
+    padding-top: 20px;
     padding-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px ;
 }
 
-#transparent{
-    max-width: 300px;
+#transparent, #flag{
+    max-width: 200px;
 }
 
 #flag{
-    max-width: 300px
+    margin-left: 50px;
+    opacity: 90%;
 }
 
 .links{
